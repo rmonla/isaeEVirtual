@@ -34,22 +34,22 @@
             <div class="col-12 col-md-8">
                 <div class="section-head text-center space30">
                     <h2 class="mbr-section-title pb-5 mbr-fonts-style display-2"
-                    >Aulas Virtuales - ISAE</h2>
+                    >Aulas Virtuales - <a href='http://www.isae.edu.ar'>ISAE</a></h2>
 <!--                     <div class="align-right"><a href='indexV2.php'><?php echo $appVer; ?></a></div>
  -->                </div>
                 <div class="clearfix"></div>
                 <div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
                     
-                    <div class="card"> <!-- Nivel Primario -->
+                    <div class="card"> <!-- Primaria -->
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#PreIng_0" aria-expanded="false" aria-controls="PreIng">
+                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Primaria_0" aria-expanded="false" aria-controls="Primaria">
                                 <h4 class="mbr-fonts-style display-5">
                                     <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
                                     Nivel Primario
                                   </h4>
                               </a>
                           </div>
-                        <div id="PreIng_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
+                        <div id="Primaria_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
                             <div class="panel-body p-4">
                                 
 <!--                                 <p><center><a target='_blank' href='./21/preing' $aOnClick>Presentador Digital</a></center></p>
@@ -68,14 +68,14 @@
                     
                     <div class="card"> <!-- Nivel Secundario -->
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#collapse1_0" aria-expanded="false" aria-controls="collapse1">
+                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Secundaria_0" aria-expanded="false" aria-controls="Secundaria">
                                 <h4 class="mbr-fonts-style display-5">
                                     <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
                                     Nivel Secundario
                                   </h4>
                               </a>
                           </div>
-                        <div id="collapse1_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
+                        <div id="Secundaria_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
                             <div class="panel-body p-4">
                                 
                                 <?php  
@@ -84,6 +84,29 @@
                                   foreach ($lstA as $a) echo getAula($a);
                                 ?>
 
+                              </div>
+                          </div>
+                    </div>
+                    <div class="card"> <!-- Comun -->
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Comun_0" aria-expanded="false" aria-controls="Comun">
+                                <h4 class="mbr-fonts-style display-5">
+                                    <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
+                                    Espacio Común
+                                  </h4>
+                              </a>
+                          </div>
+                        <div id="Comun_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
+                            <div class="panel-body p-4">
+                                
+                                <?php echo getAula('21SR'); ?>
+
+<!--                                 <?php  
+                                  // $lstA = ['21NS1', '21NS2', '21NS3', '21NS4', '21NS5' ]; 
+
+                                  // foreach ($lstA as $a) echo getAula($a);
+                                ?>
+ -->
                               </div>
                           </div>
                     </div>

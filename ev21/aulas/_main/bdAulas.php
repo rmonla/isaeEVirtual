@@ -4,18 +4,20 @@
  */
 
 	$bdNoms = [ // BD de Play Lists de YouTube.
-		"21NP1" => "ISAE 1erGrado [21NP1]",	//89909697836
-		"21NP2" => "ISAE 2doGrado [21NP2]",	//84309965356
-		"21NP3" => "ISAE 3erGrado [21NP3]",	//86051147626
-		"21NP4" => "ISAE 4toGrado [21NP4]",	//87963509629
-		"21NP5" => "ISAE 5toGrado [21NP5]",	//86414208695
-		"21NP6" => "ISAE 6toGrado [21NP6]",	//87522044907
-		"21NP7" => "ISAE 7moGrado [21NP7]",	//89237904211
-		"21NS1" => "ISAE 1erAño [21NS1]",	//83050120319
-		"21NS2" => "ISAE 2doAño [21NS2]",	//84721387672
-		"21NS3" => "ISAE 3erAño [21NS3]",	//83690447524
-		"21NS4" => "ISAE 4toAño [21NS4]",	//83751299693
-		"21NS5" => "ISAE 5toAño [21NS5]",	//89085143676
+		"21SR" => "Sala de Reuniones ISAE [21SR]",	//84689282612
+		
+		"21NP1" => "1erGrado - ISAE [21NP1]",	//89909697836
+		"21NP2" => "2doGrado - ISAE [21NP2]",	//84309965356
+		"21NP3" => "3erGrado - ISAE [21NP3]",	//86051147626
+		"21NP4" => "4toGrado - ISAE [21NP4]",	//87963509629
+		"21NP5" => "5toGrado - ISAE [21NP5]",	//86414208695
+		"21NP6" => "6toGrado - ISAE [21NP6]",	//87522044907
+		"21NP7" => "7moGrado - ISAE [21NP7]",	//89237904211
+		"21NS1" => "1erAño - ISAE [21NS1]",	//83050120319
+		"21NS2" => "2doAño - ISAE [21NS2]",	//84721387672
+		"21NS3" => "3erAño - ISAE [21NS3]",	//83690447524
+		"21NS4" => "4toAño - ISAE [21NS4]",	//83751299693
+		"21NS5" => "5toAño - ISAE [21NS5]",	//89085143676
 
 		"ID"    => "Nombre Aula"
 	];
@@ -47,6 +49,8 @@
 			"APublica",
 			"1=BASIC"
 		],[ 
+			'21SR',
+			
 			'21NP1',
 			'21NP2',
 			'21NP3',
@@ -65,6 +69,8 @@
 	];
 	
 	$bdZoomIDs = [ // BD de IDs de Aulas Zoom. 
+		"21SR" => [ '', '', '84689282612'],	//84689282612
+		
 		"21NP1" => [ '', '', '89909697836'],	//89909697836
 		"21NP2" => [ '', '', '84309965356'],	//84309965356
 		"21NP3" => [ '', '', '86051147626'],	//86051147626
