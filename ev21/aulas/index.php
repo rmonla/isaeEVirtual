@@ -55,7 +55,7 @@
 <!--                                 <p><center><a target='_blank' href='./21/preing' $aOnClick>Presentador Digital</a></center></p>
  -->                                
                                 <?php  
-                                  $lstA = ['21NP1', '21NP2', '21NP3', '21NP4', '21NP5','21NP6', '21NP7' ]; 
+                                  $lstA = ['21NP1', '21NP2', '21NP3A', '21NP3B', '21NP4', '21NP5','21NP6', '21NP7' ]; 
 
                                   // echo "<p>".getPList('PreIng')."</p>";
                                   // $lstA = ['PreIng_M', 'PreIng_F', 'PreIng_Q']; 
@@ -87,26 +87,7 @@
                               </div>
                           </div>
                     </div>
-                    <div class="card"> <!-- Comun -->
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Comun_0" aria-expanded="false" aria-controls="Comun">
-                                <h4 class="mbr-fonts-style display-5">
-                                    <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                    Espacio Común
-                                  </h4>
-                              </a>
-                          </div>
-                        <div id="Comun_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
-                            <div class="panel-body p-4">
-                                
-                                <?php echo getAula('21SR'); ?>
 
-<!--                                 <?php  
-                                  // $lstA = ['21NS1', '21NS2', '21NS3', '21NS4', '21NS5' ]; 
-
-                                  // foreach ($lstA as $a) echo getAula($a);
-                                ?>
- -->
                               </div>
                           </div>
                     </div>
