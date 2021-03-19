@@ -1,7 +1,7 @@
 <?php 
     include_once '_main/fxs.php';
 
-    $appVer = "v1.3.41";
+    $appVer = "v1.3.42";
 
  ?>
 <!DOCTYPE html>
@@ -55,7 +55,7 @@
 <!--                                 <p><center><a target='_blank' href='./21/preing' $aOnClick>Presentador Digital</a></center></p>
  -->                                
                                 <?php  
-                                  $lstA = ['21NP1', '21NP2', '21NP3A', '21NP3B', '21NP4', '21NP5','21NP6', '21NP7' ]; 
+                                  $lstA = ['np0121', 'np0221', 'np0321', 'np0421', 'np0521', 'np0621','np0721', 'np0021' ]; 
 
                                   // echo "<p>".getPList('PreIng')."</p>";
                                   // $lstA = ['PreIng_M', 'PreIng_F', 'PreIng_Q']; 
@@ -79,7 +79,7 @@
                             <div class="panel-body p-4">
                                 
                                 <?php  
-                                  $lstA = ['21NS1', '21NS2', '21NS3', '21NS4', '21NS5' ]; 
+                                  $lstA = ['ns0121', 'ns0221', 'ns0321', 'ns0421', 'ns0521' ]; 
 
                                   foreach ($lstA as $a) echo getAula($a);
                                 ?>
