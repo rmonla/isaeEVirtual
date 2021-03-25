@@ -17,6 +17,8 @@
 		"ns0421" => "4to Año Nivel Secundario - ISAE 2021 - ns0421",	//83751299693
 		"ns0521" => "5to Año Nivel Secundario - ISAE 2021 - ns0521",	//89085143676
 
+		"nsinfo" => "Modalidad Informática - ISAE 2021 - nsinfo",	//84946148032
+		"nsnatu" => "Modalidad Cs. Naturales - ISAE 2021 - nsnatu",	//83138483225
 		"np0021" => "Sala de Reuniones Primaria - ISAE 2021 - np0021",	//84689282612
 		"ID"    => "Nombre Aula"
 	];
@@ -61,6 +63,8 @@
 			'ns0421',
 			'ns0521',
 			
+			'nsinfo',
+			'nsnatu',
 			'np0021',
 			"2=PRO"
 		]
@@ -80,6 +84,8 @@
 		"ns0421" => [ '', '', '83751299693'],	//83751299693
 		"ns0521" => [ '', '', '89085143676'],	//89085143676
 
+		"nsinfo" => [ '', '', '84946148032'],	//84946148032
+		"nsnatu" => [ '', '', '83138483225'],	//83138483225
 		"np0021" => [ '', '', '84689282612'],	//84689282612
 		"aID"   => ["0=Bloqueda", "1=BASIC", "2=PRO"]
 	];

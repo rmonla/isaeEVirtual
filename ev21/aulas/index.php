@@ -1,7 +1,11 @@
 <?php 
     include_once '_main/fxs.php';
 
-    $appVer = "v1.3.42";
+    $appVer = "v1.3.43";
+
+    $appLog = "
+      v1.3.43 - F210325T1209 - Agrega aulas nsinfo y nsnatu
+    ";
 
  ?>
 <!DOCTYPE html>
@@ -79,7 +83,7 @@
                             <div class="panel-body p-4">
                                 
                                 <?php  
-                                  $lstA = ['ns0121', 'ns0221', 'ns0321', 'ns0421', 'ns0521' ]; 
+                                  $lstA = ['ns0121', 'ns0221', 'ns0321', 'ns0421', 'ns0521', 'nsinfo', 'nsnatu' ]; 
 
                                   foreach ($lstA as $a) echo getAula($a);
                                 ?>
