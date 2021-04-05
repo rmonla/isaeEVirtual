@@ -13,6 +13,7 @@
       ');
 
     $logVERs = [
+      '1.4.4' => 'Agrega URL al enlace APPVER.',
       '1.4.3' => 'Agrega versión en index.',
       '1.4.2' => 'Agrega appInfo.',
       '1.4.1' => 'Cambia nombres np0121->1er Grado [A] y np0021->1er Grado [B].',
