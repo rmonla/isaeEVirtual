@@ -1,13 +1,8 @@
 <?php 
     include_once '_main/fxs.php';
+    include_once '_main/appInfo.php';
 
-    $appVer = "v1.3.43";
-
-    $appLog = "
-      v1.3.43 - F210325T1209 - Agrega aulas nsinfo y nsnatu
-    ";
-
- ?>
+?>
 <!DOCTYPE html>
 <html  >
 <head>
@@ -39,8 +34,9 @@
                 <div class="section-head text-center space30">
                     <h2 class="mbr-section-title pb-5 mbr-fonts-style display-2"
                     >Aulas Virtuales - <a href='http://www.isae.edu.ar'>ISAE</a></h2>
-<!--                     <div class="align-right"><a href='indexV2.php'><?php echo $appVer; ?></a></div>
- -->                </div>
+                     <div class="align-right">
+                      <a href='#'><?php echo APPVER; ?></a></div>
+                </div>
                 <div class="clearfix"></div>
                 <div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
                     
@@ -59,7 +55,7 @@
 <!--                                 <p><center><a target='_blank' href='./21/preing' $aOnClick>Presentador Digital</a></center></p>
  -->                                
                                 <?php  
-                                  $lstA = ['np0121', 'np0221', 'np0321', 'np0421', 'np0521', 'np0621','np0721', 'np0021' ]; 
+                                  $lstA = ['np0121', 'np0021', 'np0221', 'np0321', 'np0421', 'np0521', 'np0621','np0721' ]; 
 
                                   // echo "<p>".getPList('PreIng')."</p>";
                                   // $lstA = ['PreIng_M', 'PreIng_F', 'PreIng_Q']; 

@@ -4,22 +4,27 @@
  */
 
 	$bdNoms = [ // BD de Play Lists de YouTube.
-		"np0121" => "1er Grado Nivel Primario - ISAE 2021 - np0121",	//89909697836
-		"np0221" => "2do Grado Nivel Primario - ISAE 2021 - np0221",	//84309965356
-		"np0321" => "3er Grado Nivel Primario - ISAE 2021 - np0321",	//86051147626
-		"np0421" => "4to Grado Nivel Primario - ISAE 2021 - np0421",	//87963509629
-		"np0521" => "5to Grado Nivel Primario - ISAE 2021 - np0521",	//86414208695
-		"np0621" => "6to Grado Nivel Primario - ISAE 2021 - np0621",	//87522044907
-		"np0721" => "7mo Grado Nivel Primario - ISAE 2021 - np0721",	//89237904211
-		"ns0121" => "1er Año Nivel Secundario - ISAE 2021 - ns0121",	//83050120319
-		"ns0221" => "2do Año Nivel Secundario - ISAE 2021 - ns0221",	//84721387672
-		"ns0321" => "3er Año Nivel Secundario - ISAE 2021 - ns0321",	//83690447524
-		"ns0421" => "4to Año Nivel Secundario - ISAE 2021 - ns0421",	//83751299693
-		"ns0521" => "5to Año Nivel Secundario - ISAE 2021 - ns0521",	//89085143676
+		
+		"np0121" => "1er Grado [A] - ISAE 2021 - np0121",	//89909697836
+		
+		"np0021" => "1er Grado [B] - ISAE 2021 - np0021",	//84689282612
+		
+		"np0221" => "2do Grado - ISAE 2021 - np0221",	//84309965356
+		"np0321" => "3er Grado - ISAE 2021 - np0321",	//86051147626
+		"np0421" => "4to Grado - ISAE 2021 - np0421",	//87963509629
+		"np0521" => "5to Grado - ISAE 2021 - np0521",	//86414208695
+		"np0621" => "6to Grado - ISAE 2021 - np0621",	//87522044907
+		"np0721" => "7mo Grado - ISAE 2021 - np0721",	//89237904211
+		
+		"ns0121" => "1er Año - ISAE 2021 - ns0121",	//83050120319
+		"ns0221" => "2do Año - ISAE 2021 - ns0221",	//84721387672
+		"ns0321" => "3er Año - ISAE 2021 - ns0321",	//83690447524
+		"ns0421" => "4to Año - ISAE 2021 - ns0421",	//83751299693
+		"ns0521" => "5to Año - ISAE 2021 - ns0521",	//89085143676
 
 		"nsinfo" => "Modalidad Informática - ISAE 2021 - nsinfo",	//84946148032
 		"nsnatu" => "Modalidad Cs. Naturales - ISAE 2021 - nsnatu",	//83138483225
-		"np0021" => "Sala de Reuniones Primaria - ISAE 2021 - np0021",	//84689282612
+		// "np0021" => "Sala de Reuniones Primaria - ISAE 2021 - np0021",	//84689282612
 		"ID"    => "Nombre Aula"
 	];
 
