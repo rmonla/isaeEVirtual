@@ -5,11 +5,11 @@
 
 	$bdNoms = [ // BD de Play Lists de YouTube.
 		
-		"np0121" => "2do Grado [B] - ISAE 2021 - np0121",	//89909697836
-		// "np0121" => "1er Grado [A] - ISAE 2021 - np0121",	//89909697836
+		// "np0121" => "2do Grado [B] - ISAE 2021 - np0121",	//89909697836
+		"np0121" => "1er Grado [A] - ISAE 2021 - np0121",	//89909697836
 		
-		"np0021" => "3er Grado [B] - ISAE 2021 - np0021",	//84689282612
-		// "np0021" => "1er Grado [B] - ISAE 2021 - np0021",	//84689282612
+		// "np0021" => "3er Grado [B] - ISAE 2021 - np0021",	//84689282612
+		"np0021" => "1er Grado [B] - ISAE 2021 - np0021",	//84689282612
 		
 		"np0221" => "2do Grado - ISAE 2021 - np0221",	//84309965356
 		"np0321" => "3er Grado - ISAE 2021 - np0321",	//86051147626

@@ -13,6 +13,7 @@
       ');
 
     $logVERs = [
+      '1.6' => 'Cambia nombres de aulas 2doB->1roA y 3roB->1roB.',
       '1.5' => 'Cambia nombres de aulas 1roA->2doB y 1roB->3roB.',
       '1.4.4' => 'Agrega URL al enlace APPVER.',
       '1.4.3' => 'Agrega versión en index.',
