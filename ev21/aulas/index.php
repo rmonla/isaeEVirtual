@@ -1,6 +1,6 @@
 <?php 
+    include_once '_rmApp.php';
     include_once '_main/fxs.php';
-    include_once '_main/appInfo.php';
 
 ?>
 <!DOCTYPE html>
@@ -52,13 +52,9 @@
                         <div id="Primaria_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
                             <div class="panel-body p-4">
                                 
-<!--                                 <p><center><a target='_blank' href='./21/preing' $aOnClick>Presentador Digital</a></center></p>
- -->                                
                                 <?php  
-                                  $lstA = ['np0121', 'np0021', 'np0221', 'np0321', 'np0421', 'np0521', 'np0621','np0721' ]; 
+                                  $lstA = ['21P1A', '21P1B', '21P2A', '21P2B', '21P3', '21P4', '21P5', '21P6', '21P7']; 
 
-                                  // echo "<p>".getPList('PreIng')."</p>";
-                                  // $lstA = ['PreIng_M', 'PreIng_F', 'PreIng_Q']; 
                                   foreach ($lstA as $a) echo getAula($a);
                                 ?>
 
@@ -79,7 +75,7 @@
                             <div class="panel-body p-4">
                                 
                                 <?php  
-                                  $lstA = ['ns0121', 'ns0221', 'ns0321', 'ns0421', 'ns0521', 'nsinfo', 'nsnatu' ]; 
+                                  $lstA = ['21S1', '21S2', '21S3', '21S4', '21S5', 'nsinfo', 'nsnatu']; 
 
                                   foreach ($lstA as $a) echo getAula($a);
                                 ?>
