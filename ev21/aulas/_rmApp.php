@@ -13,6 +13,7 @@
       ');
 
     $logVERs = [
+      '2.6' => 'bdAulas - Cambia IDAula 21SInf y 21SNat.',
       '2.5' => 'Re-organiza y limpia código en index.php.',
       '2.4' => 'Re-organiza y limpia carpetas.',
       '2.3' => 'Simplifica index.php a echo getAulas().',

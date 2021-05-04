@@ -22,8 +22,8 @@
 			"21S3"   => ['83690447524', '3er Año - ISAE 2021'],
 			"21S4"   => ['83751299693', '4to Año - ISAE 2021'],
 			"21S5"   => ['89085143676', '5to Año - ISAE 2021'],
-			"nsinfo" => ['84946148032', 'Mod. Informática - ISAE 2021'],
-			"nsnatu" => ['83138483225', 'Mod. Cs. Naturales - ISAE 2021']
+			"21SInf" => ['84946148032', 'Mod. Informática - ISAE 2021'],
+			"21SNat" => ['83138483225', 'Mod. Cs. Naturales - ISAE 2021']
 		]
 	];
 
