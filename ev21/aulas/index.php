@@ -40,55 +40,12 @@
                 <div class="clearfix"></div>
                 <div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
                     
-                    <div class="card"> <!-- Primaria -->
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Primaria_0" aria-expanded="false" aria-controls="Primaria">
-                                <h4 class="mbr-fonts-style display-5">
-                                    <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                    Nivel Primario
-                                  </h4>
-                              </a>
-                          </div>
-                        <div id="Primaria_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
-                            <div class="panel-body p-4">
-                                
-                                <?php  
-                                  $lstA = ['21P1A', '21P1B', '21P2A', '21P2B', '21P3', '21P4', '21P5', '21P6', '21P7']; 
+                    <?php echo getAulas(); ?> 
 
-                                  foreach ($lstA as $a) echo getAula($a);
-                                ?>
-
-                              </div>
-                          </div>
-                    </div>
-                    
-                    <div class="card"> <!-- Nivel Secundario -->
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#Secundaria_0" aria-expanded="false" aria-controls="Secundaria">
-                                <h4 class="mbr-fonts-style display-5">
-                                    <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>
-                                    Nivel Secundario
-                                  </h4>
-                              </a>
-                          </div>
-                        <div id="Secundaria_0" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_0">
-                            <div class="panel-body p-4">
-                                
-                                <?php  
-                                  $lstA = ['21S1', '21S2', '21S3', '21S4', '21S5', 'nsinfo', 'nsnatu']; 
-
-                                  foreach ($lstA as $a) echo getAula($a);
-                                ?>
-
-                              </div>
-                          </div>
-                    </div>
-
-                              </div>
-                          </div>
-                    </div>
-                    
                 </div>
+            </div>
+          </div>
+    </div>
               </div>
           </div>
       </div>
