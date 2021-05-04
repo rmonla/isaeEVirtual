@@ -13,6 +13,7 @@
       ');
 
     $logVERs = [
+      '2.4' => 'Re-organiza y limpia carpetas.',
       '2.3' => 'Simplifica index.php a echo getAulas().',
       '2.2' => 'Divide bdAulas en Grupos y Aulas.',
       '2.1' => 'bdAulas - Simplifica archivo a un solo array $bdAULAs.',

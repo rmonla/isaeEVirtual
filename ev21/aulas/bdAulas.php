@@ -29,11 +29,10 @@
 
 	function getAulas(){
 		global $bdAULAs;
-		$htmlAulas = ''; 
 		$htmlGrupos = ''; 
 		
 		foreach ($bdAULAs as $nivel => $aulas) {
-			
+			$htmlAulas = ''; 
 			foreach ($aulas as $aID => $aDats) {
 				//Datos del Aula.
 					list( $aZOOM, $aNOMBRE ) = $aDats;
@@ -47,21 +46,6 @@
 				$htmlGrupos .= getGrupo($nivel, $nivel, $htmlAulas);
 		}
 	return $htmlGrupos;		
-	}
-	
-	function getAula($aID){
-		global $bdAULAs;
-		
-		// Datos del Aula.
-			if ( !isset($bdAULAs[$aID]) ) return "<br>ERRORAula<br>";
-
-			list( $aZOOM, $aNOMBRE ) = $bdAULAs[$aID];
-
-		// Enlace del Aula.
-			$aURL   = "https://zoom.us/j/$aZOOM";
-			$aLNK      = "<a target='_blank' href='$aURL'>$aNOMBRE</a>";
-
-		return "<p class='align-center' mbr-fonts-style panel-text display-7'>$aLNK</p>";
 	}
 	
 function getGrupo($grupo='', $titulo='', $aulas=''){
