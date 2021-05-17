@@ -3,7 +3,7 @@
 	define('SITE', 'http://www.isae.edu.ar/sitio/');
 	define('URL', SITE.'ev21/mails/');
 	
-	$titu = "PRI-SIN-AGRU";
+	$titu = "PRIMARIA-SIN-AGRU";
 	$desc = "PRIMARIA - MAILS SIN AGRUPAR - ISAE 2021";
 	
 	$imag = SITE."images/logo01.jpg";
