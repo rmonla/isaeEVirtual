@@ -6,7 +6,7 @@
 	$titu = "PRI-SIN-AGRU";
 	$desc = "PRIMARIA - MAILS SIN AGRUPAR - ISAE 2021";
 	
-	$imag = SITE."images/LOGO2.png";
+	$imag = SITE."images/logo01.jpg";
 
 	$time = 1800;
 	$dest = URL;
